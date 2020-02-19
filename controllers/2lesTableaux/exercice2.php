@@ -78,14 +78,12 @@
         echo "<tr><td>" . $valeur . "</td><td>" . $cle . "</td></tr>";
     }
     echo '</table><br>';
-
     //Affichez le nombre de pays dans le tableau.
     echo '<p>' . sizeof($capitales) . '</p>';
-
     //Supprimer du tableau toutes les capitales ne commençant par la lettre 'B', puis affichez le contenu du tableau.
     ksort($capitales);
     echo "<table>";
-    preg_grep("[^B]", $cle);
+    //preg_grep("[^B]", $cle);
     foreach ($capitales as $cle => $valeur) {
         echo "<tr><td>" . $cle . "</td><td>" . $valeur . "</td></tr>";
     }
