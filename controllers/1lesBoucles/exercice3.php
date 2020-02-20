@@ -1,39 +1,44 @@
-<html>
+<?php
+$title = basename("/exercice3.php");
+include '../../views/header.php';
+?>
+<main>
+    <table class="table table-bordered table-dark" id="exBou3">
+        <thead>
+            <tr>
+                <?php
+                $i = 0;
+                $j = 0;
+                while ($j < 12) {
+                ?>
+                    <th scope="col" id="exBou3_1"><?= $j ?></th>
+                <?php
+                    $j++;
+                }
+                ?>
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+            $j = 0;
+            while ($i++ < 12) {
+            ?>
+                <tr>
+                    <?php
+                    while ($j++ < 12) {
+                    ?>
+                        <td scope="row" id="exBou3_1"><?= ($i * $j) ?></td>
+                    <?php
+                    }
+                    $j = 0;
+                    ?>
+                </tr>
+            <?php
+            } ?>
+        </tbody>
+    </table>
+</main>
 
-<head>
-
-</head>
-
-<body>
-
-    <?php
-    $i = -1;
-    $j = -1;
-    echo '<table>';
-    echo '<tr>';
-    while ($j++ < 13) {
-        echo '<td>' . ($j - 1) . '</td>';
-    }
-    echo '</tr>';
-    $j = -1;
-    while ($i++ < 12) {
-        echo '<tr>';
-        echo '<td>' . $i . '</td>';
-        while ($j++ < 12) {
-            echo '<td>' . ($i * $j) . '</td>';
-        }
-        $j = -1;
-        echo '</tr>';
-    }
-    echo '</table>';
-    ?>
-    <style>
-        table,
-        tr,
-        td {
-            border: solid black 1px;
-        }
-    </style>
-</body>
-
-</html>
+<?php
+include '../../views/footer.php';
+?>

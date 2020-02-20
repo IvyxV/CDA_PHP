@@ -1,3 +1,14 @@
 .nav-item {
-    /* padding: 6px; */
+    padding: 6px;
+}
+
+footer {
+    padding-top: 25px !important;
+}
+
+#exBou1,
+#exBou2_1,
+#exBou2_2,
+#exBou3_1 {
+    text-align: center;
 }

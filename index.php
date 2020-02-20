@@ -10,9 +10,10 @@
 </head>
 
 <body>
-<header>
+    <header>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <a class="navbar-brand" href="index.php"><i class="fas fa-hand-spock fa-2x"></i></a>
+            <label></label>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -20,6 +21,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <div class="dropdown">
+                            <label></label>
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Les boucles </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
@@ -31,6 +33,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
+                            <label></label>
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Les tableaux </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
@@ -41,6 +44,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
+                            <label></label>
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Les dates </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
@@ -56,6 +60,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
+                            <label></label>
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Les formulaires </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
@@ -66,6 +71,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
+                            <label></label>
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 PDO - CRUD </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
@@ -77,6 +83,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
+                            <label></label>
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Les sessions </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
@@ -93,17 +100,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi beatae dolor doloremque dolorum facilis, quia quibusdam quisquam rerum temporibus. Distinctio fugit ipsum odio officia perspiciatis quae rem sit voluptatibus!</p>
+                    <p>Bienvenue sur ma page d'exercice PHP</p>
                 </div>
             </div>
         </div>
     </main>
-
     <footer>
-        <ul>
-            <li>liens 1</li>
-            <li>liens 2</li>
-        </ul>
+        <div class="container fixed-bottom">
+            <div class="row">
+                <div class="col-sm-1">
+                    <i class="fab fa-github"></i> </div>
+                <div class="col-sm">
+                    <a href="https://github.com/IvyxV" class="text-left" name="githubPerso" alt="Lien vers github">Mon Github</a>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
