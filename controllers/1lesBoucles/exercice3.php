@@ -1,5 +1,5 @@
 <?php
-$title = basename("/exercice3.php");
+$title = basename("/exercice3.php", ".php");
 include '../../views/header.php';
 ?>
 <main>

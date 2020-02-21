@@ -38,6 +38,18 @@
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Les tableaux </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/2lesFonctions/exercice1">Exercice 1</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/2lesFonctions/exercice2">Exercice 2</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/2lesFonctions/exercice3">Exercice 3</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <label></label>
+                            <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Les fonctions </button>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item bg-dark text-white" href="../../controllers/2lesTableaux/exercice1">Exercice 1</a>
                                 <a class="dropdown-item bg-dark text-white" href="../../controllers/2lesTableaux/exercice2">Exercice 2</a>
                             </div>
