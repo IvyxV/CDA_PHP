@@ -16,7 +16,7 @@ $mois["Novembre"] = 30;
 $mois["Décembre"] = 31;
 ?>
 <main>
-    <h1>Tableau : exercice 1</h1>
+    <h1>Tableaux : exercice 1</h1>
     <h2>Partie 1</h2>
     <table class="table table-bordered table-dark">
         <thead>
@@ -66,6 +66,8 @@ $mois["Décembre"] = 31;
             <?php
             }
             ?>
+             </tbody>
+    </table>
 </main>
 <?php
 include '../../views/footer.php';

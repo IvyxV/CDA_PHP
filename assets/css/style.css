@@ -9,6 +9,10 @@ footer {
 #exBou1,
 #exBou2_1,
 #exBou2_2,
-#exBou3_1 {
+#exBou3_1,
+#exBou3_2,
+#exBou3_th,
+.textAlign,
+h1 {
     text-align: center;
 }

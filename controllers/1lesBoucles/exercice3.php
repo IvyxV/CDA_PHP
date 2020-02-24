@@ -3,7 +3,8 @@ $title = basename("/exercice3.php", ".php");
 include '../../views/header.php';
 ?>
 <main>
-    <table class="table table-bordered table-dark" id="exBou3">
+    <h1>Boucles : exercice 3</h1>
+    <table class="table table-bordered table-dark">
         <thead>
             <tr>
                 <?php
@@ -11,7 +12,7 @@ include '../../views/header.php';
                 $j = 0;
                 while ($j < 12) {
                 ?>
-                    <th scope="col" id="exBou3_1"><?= $j ?></th>
+                    <th scope="col" class="textAlign"><?= $j ?></th>
                 <?php
                     $j++;
                 }
@@ -27,7 +28,7 @@ include '../../views/header.php';
                     <?php
                     while ($j++ < 12) {
                     ?>
-                        <td scope="row" id="exBou3_1"><?= ($i * $j) ?></td>
+                        <td scope="row" class="textAlign"><?= ($i * $j) ?></td>
                     <?php
                     }
                     $j = 0;

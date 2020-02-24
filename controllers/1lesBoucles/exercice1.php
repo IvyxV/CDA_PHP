@@ -1,12 +1,13 @@
 <?php
-$title = basename("/exercice1.php");
+$title = basename("/exercice1.php", "php");
 include '../../views/header.php';
 ?>
 <main>
-  <table>
+  <h1>Boucles : exercice 1</h1>
+  <table class="table table-bordered table-dark">
     <thead>
       <tr>
-        <th>Impaire</th>
+        <th class="textAlign">Impaire jusque 150</th>
       </tr>
     </thead>
     <tbody>
@@ -15,10 +16,10 @@ include '../../views/header.php';
       while ($a < 150) {
       ?>
         <tr>
-          <td id="exBou1"><?= $a ?></td>
+          <td class="textAlign"><?= $a ?></td>
         </tr>
       <?php
-      $a +=2;
+        $a += 2;
       }
       ?>
     </tbody>

@@ -62,7 +62,7 @@ $capitales = array(
     "Zagreb" => "Croatie"
 );
 ?>
-<h1>Tableau : exercice 2</h1>
+<h1>Tableaux : exercice 2</h1>
 <!-- ______________________PARTIE_1_______________________________________________ -->
 <article>
     <h2>Partie 1</h2>
@@ -176,6 +176,8 @@ ksort($capitales);
         }
         ?>
     </tbody>
-    <?php
-    include '../../views/footer.php';
-    ?>
+</table>
+
+<?php
+include '../../views/footer.php';
+?>

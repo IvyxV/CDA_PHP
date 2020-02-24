@@ -1,13 +1,14 @@
 <?php
-$title = basename("/exercice2.php");
+$title = basename("/exercice2.php", "php");
 include '../../views/header.php';
 ?>
 <main>
-    <table>
+    <h1>Boucles : exercice 2</h1>
+    <table class="table table-bordered table-dark">
         <thead>
             <tr>
-                <th>Nombre de fois</th>
-                <th>La même phrase</th>
+                <th class="textAlign">Nombre de fois</th>
+                <th class="textAlign">La même phrase</th>
             </tr>
         </thead>
         <tbody>
@@ -17,8 +18,8 @@ include '../../views/header.php';
             while ($i <= 500) {
             ?>
                 <tr>
-                    <td id="exBou2_1"><?= $i ?></td>
-                    <td id="exBou2_2"><?= $a ?></td>
+                    <td class="textAlign"><?= $i ?></td>
+                    <td class="textAlign"><?= $a ?></td>
                 </tr>
             <?php
                 $i++;
