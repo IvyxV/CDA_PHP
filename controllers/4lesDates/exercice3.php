@@ -9,11 +9,15 @@ include '../../views/header.php';
         <h3>Comment déterminer si une année est bissextile?</h3>
     </article>
     <?php
-    function dateEx3()
+    function dateEx3($annee)
     {
-        return ;
+        // Détermination d'année bissextile ou pas 
+        if (($annee % 4 == 0 && $annee % 100 != 0) || $annee % 400 == 0)
+            return "Bissextile";
+        else
+            return "Non bissextile";
     }
-    $bissextile = dateEx3();
+    $bissextile = dateEx3(1888);
     ?>
     <article>
         <h3>Résultat : </h3>

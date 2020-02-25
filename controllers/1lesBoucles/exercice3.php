@@ -12,6 +12,7 @@ include '../../views/header.php';
                 $j = 0;
                 while ($j < 12) {
                 ?>
+                // Entête du taleau
                     <th scope="col" class="textAlign"><?= $j ?></th>
                 <?php
                     $j++;
@@ -21,6 +22,7 @@ include '../../views/header.php';
         </thead>
         <tbody>
             <?php
+            // corps du tableau
             $j = 0;
             while ($i++ < 12) {
             ?>

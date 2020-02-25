@@ -11,10 +11,14 @@ include '../../views/header.php';
     <?php
     function dateEx2()
     {
+        // Création de la date du moment
         $datetime1 = new DateTime('now');
+        //Création d'un objet date avec une date précise
         $datetime2 = new DateTime('25-09-2020');
+        // Calcul de la différence avec les deux dates
         $interval = $datetime1->diff($datetime2);
-        return $interval->format('%R%a days');
+        // Retourne le nombre de jour restant
+        return $interval->format('Il reste %a jours');
     }
     $nbJourRestant = dateEx2();
     ?>

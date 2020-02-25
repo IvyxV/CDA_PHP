@@ -15,12 +15,14 @@ include '../../views/header.php';
     </p>
   </article>
   <?php
+  //fonction qui prend 2 parametre
   function lien($lien, $titre)
   {
   ?>
     <a href="<?= $lien ?>"><?= $titre ?></a>
   <?php
   }
+  //Appelle avec 2 parametre string
   lien("https://www.reddit.com/", "Reddit Hug");
   ?>
 

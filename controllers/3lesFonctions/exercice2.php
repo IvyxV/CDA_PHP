@@ -13,6 +13,7 @@ include '../../views/header.php';
         <p>$resultat doit contenir 17.</p>
     </article>
     <?php
+    
     function somme($tab)
     {
         return array_sum($tab);

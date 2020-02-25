@@ -71,6 +71,7 @@ $capitales = array(
     </p>
 </article>
 <?php
+// Tri par clé
 ksort($capitales);
 ?>
 <table class="table table-bordered table-dark">
@@ -111,6 +112,7 @@ ksort($capitales);
     </thead>
     <tbody>
         <?php
+        // Tri par valeur
         asort($capitales);
         foreach ($capitales as $cle => $valeur) {
         ?>
@@ -140,6 +142,7 @@ ksort($capitales);
     </thead>
     <tbody>
         <tr>
+            <!-- sizeof = nombre de case du tableau -->
             <td scope="row"><?= sizeof($capitales) ?></td>
         </tr>
     </tbody>
@@ -162,6 +165,7 @@ ksort($capitales);
         <?php
         ksort($capitales);
         foreach ($capitales as $cle => $valeur) {
+            // Exclusion de toute les capitales ne commençant pas par B
             if (preg_match("/^B/", $cle)) {
                 unset($capitales[$cle]);
             }

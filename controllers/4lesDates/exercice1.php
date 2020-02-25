@@ -11,7 +11,9 @@ include '../../views/header.php';
     <?php
     function dateEx1($ex1)
     {
+        //Création de la date avec le bon format
         $oDate =  DateTime::createFromFormat("d/m/Y", $ex1);
+        //retourne la date avec le format z qui correspond au numéro de la semaine
         return $oDate->format("z");
     }
     $oDate = dateEx1("14/07/2019");
