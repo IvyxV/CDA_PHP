@@ -77,6 +77,18 @@
                             </div>
                         </div>
                     </li>
+                    <!-- ______________________FICHIERS_______________________________________________ -->
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <label></label>
+                            <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Les fichiers </button>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/5lesFichiers/exercice1">Exercice 1</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/5lesFichiers/exercice2">Exercice 2</a>
+                            </div>
+                        </div>
+                    </li>
                     <!-- ______________________FORMULAIRES_______________________________________________ -->
                     <li class="nav-item">
                         <div class="dropdown">
@@ -84,8 +96,33 @@
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Les formulaires </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item bg-dark text-white" href="controllers/5lesFormulaires/exercice1.php">Exercice 1</a>
-                                <a class="dropdown-item bg-dark text-white" href="controllers/5lesFormulaires/exercice2.php">Exercice 2</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/5lesFormulaires/exercice1.php">Exercice 1</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/5lesFormulaires/exercice2.php">Exercice 2</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- ______________________PDO-CRUD_______________________________________________ -->
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <label></label>
+                            <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                PDO - CRUD </button>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/4lesFormulaires/exercice1">Ajout</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/4lesFormulaires/exercice2">Détails</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/4lesFormulaires/exercice2">Mise à jour</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- ______________________SESSIONS_______________________________________________ -->
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <label></label>
+                            <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Les sessions </button>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/4lesFormulaires/exercice1">Exercice 1</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/4lesFormulaires/exercice2">Exercice 2</a>
                             </div>
                         </div>
                     </li>

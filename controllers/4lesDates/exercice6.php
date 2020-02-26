@@ -12,7 +12,7 @@ include '../../views/header.php';
     function dateEx6()
     {
         //Création de la date
-        $heureCourante = new DateTime('2020:12:25');
+        $heureCourante = new DateTime();
         //Ajoute un mois
         $heureCourante->add(new DateInterval('P1M'));
         //Retour de la date avec le bon format
