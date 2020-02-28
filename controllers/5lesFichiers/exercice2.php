@@ -4,21 +4,18 @@ include '../../views/header.php';
 $link = file('http://bienvu.net/misc/customers.csv');
 ?>
 <main>
-  <h1>Fichier : exercice 2</h1>
-      
-  <?php
-        foreach ($link as $z) {
-            explode(',', $link);
-            ?>
-
-            <tr>
+    <h1>Fichier : exercice 2</h1>
+    <?php
+    foreach ($link as $a => $z) {
+        explode(',', $z);
+    ?>
+        <tr>
                 <td><?= $z ?></td>
-            </tr>
-            <?php
-        }
-        ?>
-  
-  <!-- <table>
+        </tr>
+    <?php
+    }
+    ?>
+    <!-- <table>
         <thead>
         <tr>
             <th>Surname</th>
@@ -32,14 +29,14 @@ $link = file('http://bienvu.net/misc/customers.csv');
         <tbody>
         <?php
         foreach ($link as $z) {
-            ?>
+        ?>
             <tr>
                 <td><?= $z ?></td>
                 <td><?= $z ?></td>
             </tr>
             <?php
         }
-        ?>
+            ?>
         </tbody>
     </table> -->
 </main>

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* Tout le corps de la page  */
+body {
+  font-family: "Corbel";
+  font-weight: bold;
+}
+/* la navbar */
+nav {
+  font-family: "Corbel Gras";
+  display: inline-flex;
+}
+/* Tout le formulaire */
+#contact {
+  /* Fond de la page */
+  background: #F9F9F9;
+  /* Créer un écart avec le reste */
+  padding: 24px;
+  /* Créer une marge en haut et en bas */
+  margin: 16px 0;
+  /* Créer le bloc avec effet 3D */
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+/* Dans le formulaire, tout les h3 */
+#contact h3 {
+  /* Type d'affichage en bloc */
+  display: block;
+  /* taille du text */
+  font-size: 30px;
+  /* rend le texte gras en 300 */
+  font-weight: 300;
+  /* marge en bas */
+  margin-bottom: 10px;
+}
+/* Dans le formulaire, tout les h4 */
+#contact h4 {
+  /* marge en haut 5 coté 0 bas 16 pixel */
+  margin: 5px 0 16px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Dans le formulaire, différent type input */
+#contact input[type=text],
+#contact input[type=email],
+#contact input[type=tel],
+#contact input[type=url],
+#contact textarea {
+  /* Prend toute la place dont il a besoin */
+  display: flex;
+  width: 100%;
+  /* Bordure autour du bloc */
+  border: 1px solid #ccc;
+  /* Fond du bloc */
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+/* Modif de certain bloc avec l'ID */
+#c_adresse,
+#c_email {
+  padding: 15px;
+}
+
+#demande {
+  height: 96px;
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+}
+
+/* Change la couleur du bouton quand on survole avec la souris */
+.btn[type=reset]:hover {
+  background: red;
+}
+
+.btn[type=submit]:hover {
+  background: green;
+}

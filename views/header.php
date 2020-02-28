@@ -96,8 +96,8 @@
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Les formulaires </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item bg-dark text-white" href="../../controllers/5lesFormulaires/exercice1.php">Exercice 1</a>
-                                <a class="dropdown-item bg-dark text-white" href="../../controllers/5lesFormulaires/exercice2.php">Exercice 2</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/6lesFormulaires/exercice1.php">Exercice 1</a>
+                                <a class="dropdown-item bg-dark text-white" href="../../controllers/6lesFormulaires/exercice2.php">Exercice 2</a>
                             </div>
                         </div>
                     </li>
