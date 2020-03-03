@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Tout le corps de la page  */
+body {
+  font-family: "Corbel";
+  font-weight: bold;
+}
+/* Tout le formulaire */
+.infoDisc {
+  /* Fond de la page */
+  background: #F9F9F9;
+  /* Créer un écart avec le reste */
+  padding: 2%;
+  /* Créer une marge en haut et en bas */
+  margin: 2%;
+  /* Créer le bloc avec effet 3D */
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  /* display: flex !important; */
+  display: flex !important;
+  flex-direction: column;
+}
+
+.buttonInfo {
+}
+
+#discPic {
+  max-height: 15vh;
+  width: auto;
+}
+
+#discTitle {
+  font-size: 2vh;
+  text-align: center;
+}
+
+.detailsListDisc {
+  font-size: 1vh;
+  padding-left: 2vh;
+}

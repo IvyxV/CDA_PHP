@@ -78,8 +78,8 @@
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Les formulaires </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item bg-dark text-white" href="controllers/4lesFormulaires/exercice1">Exercice 1</a>
-                                <a class="dropdown-item bg-dark text-white" href="controllers/4lesFormulaires/exercice2">Exercice 2</a>
+                                <a class="dropdown-item bg-dark text-white" href="controllers/5lesFichiers/exercice1">Exercice 1</a>
+                                <a class="dropdown-item bg-dark text-white" href="controllers/5lesFichiers/exercice2">Exercice 2</a>
                             </div>
                         </div>
                     </li>
@@ -87,11 +87,11 @@
                         <div class="dropdown">
                             <label></label>
                             <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                PDO - CRUD </button>
+                                Les formulaires </button>
                             <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item bg-dark text-white" href="controllers/4lesFormulaires/exercice1">Ajout</a>
-                                <a class="dropdown-item bg-dark text-white" href="controllers/4lesFormulaires/exercice2">Détails</a>
-                                <a class="dropdown-item bg-dark text-white" href="controllers/4lesFormulaires/exercice2">Mise à jour</a>
+                                <a class="dropdown-item bg-dark text-white" href="controllers/6lesFormulaires/exercice1/exercice1.php">Exercice 1</a>
+                                <a class="dropdown-item bg-dark text-white" href="controllers/6lesFormulaires/exercice2/">Exercice 2</a>
+                                <a class="dropdown-item bg-dark text-white" href="controllers/6lesFormulaires/velvetRecords/index">CRUD</a>
                             </div>
                         </div>
                     </li>

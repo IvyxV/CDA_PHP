@@ -17,7 +17,7 @@ function cnxBDD()
 }
 function all_disc()
 {
-    
+
     $requete = cnxBDD()->prepare('SELECT disc_id, disc_title, disc_year, disc_picture, disc_label, disc_genre, disc_price, artist_id FROM disc');
     $requete->execute();
     $TabDisc = $requete->fetchAll();
