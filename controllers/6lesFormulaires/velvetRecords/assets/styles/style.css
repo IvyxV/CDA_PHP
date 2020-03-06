@@ -1,9 +1,11 @@
 @charset "UTF-8";
+
 /* Tout le corps de la page  */
 body {
-  font-family: "Corbel";
-  font-weight: bold;
+  /* font-family: "Corbel"; */
+  /* font-weight: bold; */
 }
+
 /* Tout le formulaire */
 .infoDisc {
   /* Fond de la page */
@@ -11,28 +13,32 @@ body {
   /* Créer un écart avec le reste */
   padding: 2%;
   /* Créer une marge en haut et en bas */
-  margin: 2%;
+  margin: 3% 0;
   /* Créer le bloc avec effet 3D */
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  /* display: flex !important; */
+  /* max-width: 20vh !important; */
+  height: 30vh !important;
+  width: auto;
   display: flex !important;
   flex-direction: column;
 }
 
-.buttonInfo {
+.case {
+  display: flex !important;
 }
 
-#discPic {
-  max-height: 15vh;
-  width: auto;
+.discPic {
+  width: 15vh !important;
+  height: 15vh !important;
 }
 
-#discTitle {
+.discTitle {
+  max-width: 15vh;
   font-size: 2vh;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .detailsListDisc {
-  font-size: 1vh;
-  padding-left: 2vh;
+  font-size: 1.5vh;
+  text-align: start;
 }
